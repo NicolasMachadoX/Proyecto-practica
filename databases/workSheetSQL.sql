@@ -1,0 +1,8 @@
+CREATE DATABASE workSheetSQL;
+
+use workSheetSQL;
+
+CREATE TABLE userJWT(
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(80)
+);
